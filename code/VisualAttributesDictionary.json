@@ -1,0 +1,41 @@
+{
+    "bar": {
+        "mark": ["bar", "rectangle", "component", "part", "segment"],
+        "maximum": {
+            "xLocation": ["rightmost"],
+            "yLocation": ["topmost"],
+            "width": ["widest", "longest"],
+            "height": ["tallest", "highest"]
+        },
+        "minimum": {
+            "xLocation": ["leftmost"],
+            "yLocation": ["bottommost"],
+            "width": ["narrowest", "shortest"],
+            "height": ["shortest", "lowest"]
+        },
+        "comparison_more": {
+            "width": ["longer", "wider"],
+            "height": ["taller", "higher"]
+        },
+        "comparison_less": {
+            "width": ["shorter", "narrower"],
+            "height": ["shorter", "lower"]
+        },
+        "value": {
+            "width": ["width", "length", "wide", "long"],
+            "height": ["height", "high", "tall"]
+        }
+    },
+    "line": {
+        "mark": ["line", "graph", "peak", "trough"],
+        "maximum": {
+            "yLocation": ["highest", "topmost", "peak"]
+        },
+        "minimum": {
+            "yLocation": ["lowest", "bottommost", "trough"]
+        },
+        "value": {
+            "yLocation": ["height", "y"]
+        }
+    }
+}
