@@ -142,11 +142,9 @@ function extractDataTable(specFileDir) {
                                 });
                             }
                         });
-                        console.log("AAA", filteredVisualizationData);
 
 
                         let foldedVisualizationData = foldData(filteredVisualizationData, vis2dataMapping);
-                        console.log("ASDFFF", filteredVisualizationData);
 
 
                         let foldedTable = foldIntoTable(foldedVisualizationData);
