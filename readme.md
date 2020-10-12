@@ -29,7 +29,7 @@ Each of the three stages of the pipeline can be run in separation.
 Note: the code has only been tested on Google Chrome.
 1. Set `curr_visualization` parameter in `js/index.js` to point to the desired visualization.
 2. Run local host on the root code directory and open `index.html`
-3. Extracted table will show underneath the chart. Save the table as CSV for next steps.
+3. Extracted table will show underneath the chart. Save the table as CSV for next steps. (You may want to change line 153 of `js/index.js` to save to a file instead of printing to console.)
 
 ### Running Stage 2: Visual to Non-Visual Question Conversion & Running Sempre for answers
 
